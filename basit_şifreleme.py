@@ -1,7 +1,6 @@
 import os 
 alfabe =[" ","a","A","b","B","c","C","ç","Ç","d","D","e","E","f","F","g","G","ğ","Ğ","h","H","ı","I","i","İ","j","J","k","K","l","L","m","M","n","N","o","O","ö","Ö","p","P","r","R","s","S","ş","Ş","t","T","u","U","ü","Ü","v","V","y","Y","z","Z","w","W","q","Q","x","X","1","2","3","4","5","6","7","8","9","0",".",",",":",";","*","(",")","!","'","^","+","%","&","/","=","?","-","|","_","#","~","{","}","[","]",'"']
 
-#not akıl sağlığımı yitirmemek için uyuyicam sabah'a da unutma encrypt işlemi başarılı decrypt'i hallediceksin yaparsın hadi
 
 
 def number2binary(sayi,key):
@@ -22,14 +21,12 @@ def binary2number(binary,key):
     global toplam_sayi 
     toplam_sayi = 0
     for i in range(i):
-#        print ("i:", i)
         if int(list_binary[i]) == 0:
             pass
             
         else:
-#            print("listbinari : ", list_binary[i])
             toplam_sayi += 2**i
-#            print(toplam_sayi)
+
     toplam_sayi = toplam_sayi - key
     
     
@@ -63,7 +60,7 @@ def decrypt(yazi,key):
 
 input("""
     ###############################################
-    #           Süper Binary Şifreleme            #
+    #           Kolay Binary Şifreleme            #
     #                                             #
     #                                by BurakGGM  #
     ###############################################
